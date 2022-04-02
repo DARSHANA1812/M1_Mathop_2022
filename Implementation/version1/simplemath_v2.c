@@ -1,7 +1,24 @@
+/**
+ * @file simplemath_v2.c
+ * @author Darshana R
+ * @brief Example to simply illustrate multifile and unit testing and doxygen documentation
+ * @version 1.0
+ * @date 2022-04-02
+ * 
+ * @copyright Copyright (c) 2022
+ * 
+ */
 #include <stdio.h>
 #include <stdlib.h>
 #include "../unity/unity.h"
 
+/**
+ * @brief Finds sum of all the array elements 
+ * 
+ * @param in_size size holds length of the array
+ * @param in_ptr ptr Points to array of integers
+ * @return int  Result of addition
+ */
 int add_elements(int size, int* ptr )
 {
     int i; 

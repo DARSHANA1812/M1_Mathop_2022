@@ -1,11 +1,19 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+
+/**
+ * This is the  function that iterates thro' the array and finds sum
+ * 
+*/
 int findSum()
 {
+    ///< This is the pointer that points to the array containing data
     int* ptr; 
     int size ;
     int i; 
+
+    ///< Sum of all the array elements will be saved in sum 
     int sum; 
 
     printf("Enter size of the array: ");

@@ -1,3 +1,13 @@
+/**
+ * @file test_simplemath.c
+ * @author Darshana R
+ * @brief Example to add array elements using Automated testing
+ * @version 1.0
+ * @date 2022-04-02
+ * 
+ * @copyright Copyright (c) 2022
+ * 
+ */
 #include "../unity/unity.h"
 #include "../unity/unity.c"
 
@@ -43,6 +53,12 @@ void automated_test_add_underflow()
     TEST_ASSERT_EQUAL(0, add_elements(len1, r));
 }
 
+/**
+ * @brief This is the main function 
+ * 
+ * 
+ * @return int  Returns 0 for success
+ */
 int main(void)
 {
    // findsum(); // Simple version
